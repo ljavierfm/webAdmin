@@ -13,6 +13,7 @@ import { ChartsModule } from "ng2-charts";
 import { IncrementadorComponent } from "../components/incrementador/incrementador.component";
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { ObjectToArrayPipe } from "../pipes/object-to-array.pipe";
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ObjectToArrayPipe } from "../pipes/object-to-array.pipe";
     Graficas1Component,
     IncrementadorComponent,
     GraficoDonaComponent,
-    ObjectToArrayPipe
+    ObjectToArrayPipe,
+    AccountSettingsComponent
   ],
   imports: [FormsModule, SharedModule, PAGES_ROUTES, ChartsModule,CommonModule],
   exports: [
